@@ -1,6 +1,4 @@
 
-/* Modernized CSS for ÉcoIA project with background ecology theme */
-
 :root {
   --primary: #27ae60;
   --secondary: #2c3e50;
@@ -116,8 +114,8 @@ video {
 
 .gallery img {
   width: 100%;
-  max-height: 280px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   transition: transform var(--transition);
