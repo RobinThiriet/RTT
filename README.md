@@ -1,8 +1,8 @@
-# RTT - ÉcoIA : L'IA au Service de l'Écologie
+# RTT - EcoIA : L'IA au Service de l'Écologie - IA for Good - Ynov 2025
 
 ## 🚀 Présentation
 
-**ÉcoIA** transforme la sensibilisation environnementale en expérience ludique et interactive, rendant l'apprentissage écologique accessible à tous.
+**EcoIA** transforme la sensibilisation environnementale en expérience ludique et interactive, rendant l'apprentissage écologique accessible à tous.
 
 *Projet développé pour le Hackathon IA FOR GOOD 2025 organisé par Ynov*  
 *Équipe RTT : Robin, Tristan, Thomas*
@@ -13,7 +13,7 @@
 
 Chaque action compte pour protéger la biodiversité et sensibiliser aux enjeux de l’écosystème.
 
-## 💡 Pourquoi ÉcoIA ?
+## 💡 Pourquoi EcoIA ?
 
 - **Message écologique clair**
 - **Originalité des visuels générés**
@@ -25,7 +25,7 @@ Chaque action compte pour protéger la biodiversité et sensibiliser aux enjeux 
 ## 🛠️ Technologies Utilisées
 
 ### Développement
-    HTML5, CSS3 pour une interface utilisateur interactive  
+    HTML5, Javascript, CSS3 pour une interface utilisateur interactive  
     GitHub Pages pour l’hébergement et le déploiement continu
 
 ### Intelligence Artificielle
@@ -49,22 +49,7 @@ Consultez la démo en ligne :
 ## 📄 Présentation Complète
 
 Découvrez notre présentation détaillée :  
-[ÉcoIA - L'IA au Service de l'Écologie (Gamma)](https://gamma.app/docs/EcoGame-LIA-au-Service-de-lEcologie-uix1ry54fi4ffni?mode=doc)
-
-## 🏁 Lancer le projet en local
-
-    1. Cloner le dépôt  
-       git clone https://github.com/thfx31/rtt.git  
-    2. Ouvrir `index.html` dans votre navigateur
-
-## 📋 Structure du dépôt
-
-    rtt/
-    ├── index.html        # Page d'accueil du jeu
-    ├── assets/           # Images, styles et ressources
-    │   ├── images/
-    │   └── styles.css     # Feuille de style principale
-    └── README.md         # Document d'information (celui-ci)
+[EcoIA - L'IA au Service de l'Écologie (Gamma)](https://gamma.app/docs/EcoGame-LIA-au-Service-de-lEcologie-uix1ry54fi4ffni?mode=doc)
 
 ## 🔍 Défis Rencontrés
 
