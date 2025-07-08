@@ -466,13 +466,11 @@
         container.appendChild(msg);
       }
 
-      document.querySelectorAll('.quiz-option input[type="radio"]').forEach(input => {
-        input.addEventListener('change', () => {
-          const id = +input.dataset.id;
-          const gain = +input.dataset.gain;
-          // Désactiver tous les boutons de cette question
-          const group = document.querySelectorAll(`input[name="q${id}"]`);
-          group.forEach(el => el.disabled = true);
+      document.querySelectorAll('.choice').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = +btn.dataset.id;
+          const gain = +btn.dataset.gain;
+          btn.disabled = true;
           showResult(id, gain);
         });
       });
