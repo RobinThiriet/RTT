@@ -1,0 +1,156 @@
+
+/* Modernized CSS for ÉcoIA project with background ecology theme */
+
+:root {
+  --primary: #27ae60;
+  --secondary: #2c3e50;
+  --bg: #eef6f2;
+  --text: #2c3e50;
+  --white: #ffffff;
+  --radius: 12px;
+  --shadow: 0 8px 20px rgba(0,0,0,0.05);
+  --max-width: 1100px;
+  --transition: 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+body.ecology-theme {
+  background: linear-gradient(to bottom, #e1f4ec, #f2f9f6);
+  background-attachment: fixed;
+}
+
+.navbar {
+  background: var(--white);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow);
+  padding: 1rem 2rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  transition: color var(--transition);
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: var(--primary);
+}
+
+main.content {
+  padding: 4rem 1.5rem 3rem;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.hero {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.video-preview {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform var(--transition);
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background var(--transition);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #219150;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  background-color: var(--secondary);
+  color: var(--white);
+  font-size: 1rem;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}

@@ -2,51 +2,48 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>ÉcoIA – L’intelligence au service de la planète</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil – ÉcoIA</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-  <div class="navbar">
-    <h1>ÉcoIA</h1>
-    <nav>
-      <a href="#intro">Introduction</a>
-      <a href="#jeu">Mini-jeu</a>
-      <a href="#conclusion">Solutions</a>
-    </nav>
-  </div>
-
-  <header>
-    <h1>ÉcoIA 🌱</h1>
-    <p>L’intelligence artificielle… à quel prix ?</p>
+<body class="ecology-theme">
+  <header class="navbar modern">
+    <div class="navbar-container">
+      <h1 class="logo">EcoIA - RTT</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="jeu.html">Mini-jeu</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="intro">
-    <h2>Introduction</h2>
-    <video controls src="assets/intro.mp4" width="100%"></video>
-  </section>
+  <main class="content">
+    <section class="hero">
+      <h2>Bienvenue sur ÉcoIA 🌱</h2>
+      <p>
+        L’intelligence artificielle transforme nos vies : elle automatise, optimise, anticipe…
+        Mais cette révolution numérique a un prix. Chaque requête, chaque entraînement de modèle,
+        chaque image générée consomme de l’électricité, mobilise des serveurs et donc, produit du CO₂.
+      </p>
+      <p>
+        Le but de ce site est simple : sensibiliser à l’impact environnemental de l’IA tout en mettant
+        en avant des solutions concrètes. Ce n’est pas une condamnation, mais un appel à mieux concevoir et utiliser.
+      </p>
 
-  <section id="jeu">
-    <h2>Mini-jeu : Choisis ton impact</h2>
-    <p>Découvre l’impact environnemental de l’IA à travers un quiz interactif.</p>
-    <a href="https://lien-du-jeu-ou-intégration.html" class="button">Lancer le jeu</a>
-  </section>
-
-  <section id="conclusion">
-    <h2>Et maintenant ?</h2>
-    <p>Voici des pistes pour rendre l’IA plus responsable et bénéfique.</p>
-
-    <div class="gallery">
-      <img src="assets/images/solution1_optimiser_modeles.png" alt="Optimiser les modèles IA">
-      <img src="assets/images/solution2_datacenters_verts.png" alt="Datacenters verts">
-      <img src="assets/images/solution3_transparence.png" alt="Transparence numérique">
-      <img src="assets/images/solution4_usages_utiles.png" alt="Usages utiles de l'IA">
-    </div>
-  </section>
+      <div class="video-preview">
+        <video controls width="560" height="315">
+          <source src="assets/intro.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la vidéo.
+        </video>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>Projet ÉcoIA – IA For Good | Tom FX & co</p>
+    <p>Projet EcoIA – Ynov - IA For Good | Robin - Tristan - Thomas</p>
   </footer>
-
-  <script src="assets/script.js"></script>
 </body>
 </html>
