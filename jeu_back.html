@@ -7,84 +7,22 @@
 <title>Mini-jeu – EcoIA</title>
 <link href="assets/style.css" rel="stylesheet"/><style>
 .quiz-option {
-  display: block;
-  margin: 16px 0;
-}
-.quiz-option input[type="radio"] {
-  display: none;
-}
-.quiz-option label {
-  display: block;
-  width: 100%;
-  background: #ffffff;
-  border: 2px solid #2C6E49;
-  border-radius: 10px;
-  padding: 16px 20px;
-  font-size: 1.05rem;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: background 0.2s, border-color 0.2s;
-}
-.quiz-option label:hover {
-  background: #f0f9f2;
-}
-.quiz-option input[type="radio"]:checked + label {
-  background: #eaf6ed;
-  border-color: #27ae60;
-  font-weight: bold;
-}
-.feedback.incorrect {
-  color: red;
-  margin-top: 1rem;
-  font-weight: bold;
-}
-.feedback.correct {
-  color: #2C6E49;
-  margin-top: 1rem;
-  font-weight: bold;
-}
-</style><style>
-.quiz-container {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.quiz-option {
-  display: block !important;
-  width: 100%;
-}
-.quiz-option input[type="radio"] {
-  display: none !important;
-}
-.quiz-option label {
-  display: block;
-  width: 100%;
-  background: #ffffff;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  margin: 10px 0;
   border: 2px solid #2C6E49;
-  border-radius: 10px;
-  padding: 16px 20px;
-  font-size: 1.05rem;
+  border-radius: 8px;
+  background: #ffffff;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: background 0.2s, border-color 0.2s;
+  font-size: 1rem;
 }
-.quiz-option label:hover {
-  background: #f0f9f2;
-}
-.quiz-option input[type="radio"]:checked + label {
+.quiz-option:hover {
   background: #eaf6ed;
-  border-color: #27ae60;
-  font-weight: bold;
 }
-.feedback.incorrect {
-  color: red;
-  margin-top: 1rem;
-  font-weight: bold;
-}
-.feedback.correct {
-  color: #2C6E49;
-  margin-top: 1rem;
-  font-weight: bold;
+.quiz-option input {
+  transform: scale(1.2);
 }
 </style></head>
 <body class="ecology-theme">
@@ -332,7 +270,6 @@
       });
     });
   </script>
-
 <button id="scrollTopBtn" style="
   position: fixed;
   bottom: 40px;
