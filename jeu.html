@@ -456,10 +456,10 @@
       function showFinal() {
         const container = document.querySelector('.quiz-container');
         const title = score <= 4
-          ? '🪨 Petit astéroïde maladroit de l’écosphère'
+          ? 'Bravo : 🪨 Mais tu as encore du travail Petit astéroïde maladroit de l’écosphère 🪨'
           : score <= 8
-            ? '🛰️ Commandeur orbital en herbe de l’Éco-Ordre'
-            : '🚀 Grand empereur suprême de l’éco-galaxie';
+            ? 'Bravo : 🛰️ Tu commence a bien t’en sortir Commandeur orbital en herbe de l’Éco-Ordre 🛰️'
+            : 'Bravo : 🚀 Tu mérite bien ton titre de Grand empereur suprême de l’éco-galaxie 🚀';
         const msg = document.createElement('div');
         msg.className = 'final-score';
         msg.innerText = `⭐ Score final : ${score}/${total}\n\n${title}`;
